@@ -7,7 +7,6 @@ License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://tnemeth.free.fr/projets/programmes/%{name}-%{version}.tar.gz
 # Source0-md5:	bf4d0274a99a610d2f22442a06903eec
-# Source0-size:	113552
 Source1:	%{name}.desktop
 URL:		http://tnemeth.free.fr/projets/dockapps.html
 BuildRequires:	XFree86-devel
