@@ -23,10 +23,10 @@ alert you by turning on and off back-light.
 WMMailLoad jest programem monitoruj±cym skrzynki pocztowe. Jest to
 aplet wspierany przez takich zarz±dców okien jak Window Maker,
 AfterStep, BlackBox i Enlightenment. Posiada interfejs u¿ytkownika
-podobny do wy¶wietlacza LCD. Ilo¶æ nowych listów jest wy¶wietlana w
-górnej czê¶ci a ca³kowita ilo¶æ listów w dolnej po³owie. Je¿eli pojawi
-siê nowy list to tryb alarmowy ostrze¿e Ciê poprzez w³±czanie i
-wy³±czanie tylnego pod¶wietlenia.
+podobny do wy¶wietlacza LCD. Liczba nowych listów jest wy¶wietlana w
+górnej czê¶ci a ca³kowita liczba listów w dolnej po³owie. Je¿eli
+pojawi siê nowy list, to tryb alarmowy ostrze¿e o tym poprzez
+w³±czanie i wy³±czanie tylnego pod¶wietlenia.
 
 %prep
 %setup -q
@@ -39,7 +39,7 @@ wy³±czanie tylnego pod¶wietlenia.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
 
-%{__make} install-strip \
+%{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
