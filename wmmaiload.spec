@@ -1,5 +1,5 @@
-Summary:	A dockapp to monitor mailboxes.
-Summary(pl):	Aplet monitoruj±cy skrzynki pocztowe.
+Summary:	A dockapp to monitor mailboxes
+Summary(pl):	Aplet monitoruj±cy skrzynki pocztowe
 Name:		wmmaiload
 Version:	0.10.0
 Release:	1
