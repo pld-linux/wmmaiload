@@ -1,12 +1,12 @@
 Summary:	A dockapp to monitor mailboxes
 Summary(pl):	Aplet monitoruj±cy skrzynki pocztowe
 Name:		wmmaiload
-Version:	1.0.0
+Version:	1.0.1
 Release:	1
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://tnemeth.free.fr/projets/programmes/%{name}-%{version}.tar.gz
-# Source0-md5:	cc949b5fd40c57117156ecb760e8a81b
+# Source0-md5:	e19a5cfa4eb5ea7b28c7818f6ff35b95
 Source1:	%{name}.desktop
 URL:		http://tnemeth.free.fr/projets/dockapps.html
 BuildRequires:	XFree86-devel
