@@ -1,15 +1,16 @@
 Summary:	A dockapp to monitor mailboxes
 Summary(pl):	Aplet monitoruj±cy skrzynki pocztowe
 Name:		wmmaiload
-Version:	0.10.0
+Version:	1.0.0
 Release:	1
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://tnemeth.free.fr/projets/programmes/%{name}-%{version}.tar.gz
-# Source0-md5:	aea7e5f51ec57f65a5e0009ba9ed060d
+# Source0-md5:	cc949b5fd40c57117156ecb760e8a81b
 Source1:	%{name}.desktop
 URL:		http://tnemeth.free.fr/projets/dockapps.html
 BuildRequires:	XFree86-devel
+BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -38,12 +39,12 @@ w³±czanie i wy³±czanie tylnego pod¶wietlenia.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
+install -d $RPM_BUILD_ROOT%{_desktopdir}/docklets
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}/docklets
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -53,4 +54,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
-%{_applnkdir}/DockApplets/*
+%{_desktopdir}/docklets/*
