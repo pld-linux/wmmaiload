@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=wmmaiload
+Comment=Mail box monitor
+Comment[pl]=Monitor skrzynek pocztowych
+Exec=wmmaiload
+Terminal=false
+Type=Application
