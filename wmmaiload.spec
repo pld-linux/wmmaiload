@@ -1,5 +1,5 @@
 Summary:	A dockapp to monitor mailboxes
-Summary(pl):	Aplet monitoruj±cy skrzynki pocztowe
+Summary(pl.UTF-8):   Aplet monitorujÄ…cy skrzynki pocztowe
 Name:		wmmaiload
 Version:	1.0.2
 Release:	1
@@ -22,14 +22,14 @@ The new mails number is displayed in the top half and the total mails
 number is in the bottom half. If there is new mail, an alarm-mode will
 alert you by turning on and off back-light.
 
-%description -l pl
-WMMailLoad jest programem monitoruj±cym skrzynki pocztowe. Jest to
-aplet wspierany przez takich zarz±dców okien jak Window Maker,
-AfterStep, BlackBox i Enlightenment. Posiada interfejs u¿ytkownika
-podobny do wy¶wietlacza LCD. Liczba nowych listów jest wy¶wietlana w
-górnej czê¶ci a ca³kowita liczba listów w dolnej po³owie. Je¿eli
-pojawi siê nowy list, to tryb alarmowy ostrze¿e o tym poprzez
-w³±czanie i wy³±czanie tylnego pod¶wietlenia.
+%description -l pl.UTF-8
+WMMailLoad jest programem monitorujÄ…cym skrzynki pocztowe. Jest to
+aplet wspierany przez takich zarzÄ…dcÃ³w okien jak Window Maker,
+AfterStep, BlackBox i Enlightenment. Posiada interfejs uÅ¼ytkownika
+podobny do wyÅ›wietlacza LCD. Liczba nowych listÃ³w jest wyÅ›wietlana w
+gÃ³rnej czÄ™Å›ci a caÅ‚kowita liczba listÃ³w w dolnej poÅ‚owie. JeÅ¼eli
+pojawi siÄ™ nowy list, to tryb alarmowy ostrzeÅ¼e o tym poprzez
+wÅ‚Ä…czanie i wyÅ‚Ä…czanie tylnego podÅ›wietlenia.
 
 %prep
 %setup -q
